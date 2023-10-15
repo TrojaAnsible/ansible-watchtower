@@ -13,15 +13,15 @@ Role Variables
 |-------------------|-------------|-------------|---------|
 |app_user|user for the install directory| pihole|no|
 |docker_home|base install directory| /opt/docker|no|
-|docker_dirs4|installation sub-directory|watchtower|no|
+|docker_dirs|installation sub-directory|watchtower|no|
 |watchtower_env| template name| watchtower.env|no|
 |timezone|Timezone| Europe/Vienna|no|
 |smtp_port|smtp server port| 587|no|
 |vault_smtp_server|smtp server|no default|yes|
-|vault_mail_from_watchtower|from address|no default|yes|
-|vault_mail_to_usr|to address|no default|yes|
 |vault_smtp_login|smtp auth login|no default|yes|
 |vault_smtp_password|smtp auth password|no default|yes|
+|vault_mail_from_watchtower|from address|no default|yes|
+|vault_mail_to_usr|to address|no default|yes|
 
 
 Dependencies

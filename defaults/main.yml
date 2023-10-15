@@ -22,7 +22,7 @@ vault_smtp_password:
 
 
 # watchtower
-docker_dirs4:
+docker_dirs:
   - watchtower
 
 watchtower_env: watchtower.env
