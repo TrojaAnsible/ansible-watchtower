@@ -1,0 +1,20 @@
+---
+#
+- hosts: all
+  become: yes
+
+  vars:
+    configure_watchtower: true
+
+
+  vars_files:
+    - group_vars/password_vault.yml
+
+
+  roles:
+    - name: ansible-watchtower
+
+#  tasks:
+#    - include_role:
+#        name: ansible-watchtower
+#
