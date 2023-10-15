@@ -1,0 +1,10 @@
+---
+# tasks file for ansible-watchtower
+#
+- assert:
+    that:
+      - vault_mail_from_watchtower != None
+    fail_msg: vault_mail_from_watchtower parameter not set.
+
+
+- import_tasks: watchtower.yml

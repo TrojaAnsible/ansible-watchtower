@@ -1,0 +1,10 @@
+---
+# vars file for ansible-watchtower
+#
+mail_from_watchtower: "{{ vault_mail_from_watchtower }}"
+mail_to_usr: "{{ vault_mail_to_usr }}"
+
+smtp_server: "{{ vault_smtp_server }}"
+smtp_login: "{{ vault_smtp_login }}"
+smtp_password: "{{ vault_smtp_password }}"
+#

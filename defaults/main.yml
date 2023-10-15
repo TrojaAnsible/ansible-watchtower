@@ -1,0 +1,29 @@
+---
+# defaults file for ansible-watchtower
+
+# OS config
+timezone: Europe/Vienna
+
+
+# pihole application user
+app_user: 'pihole'
+
+
+# docker home
+docker_home: /opt/docker
+
+smtp_port: 587
+
+vault_mail_from_watchtower:
+vault_mail_to_usr:
+vault_smtp_server:
+vault_smtp_login:
+vault_smtp_password:
+
+
+# watchtower
+docker_dirs4:
+  - watchtower
+
+watchtower_env: watchtower.env
+#
